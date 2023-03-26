@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <form action="index.py" method="post">
+        <!-- Fichier 1 -->
+        Fichier BMP : 
+        <input type="file" name="fichier1" />
+
+        <p>Traitements :</p>
+        <input type="checkbox" name="gris" value="ok" />
+                Niveaux de gris
+            
+            <input type="checkbox" name="inversion" value="ok" />
+                Inversion des couleurs
+            
+            <input type="checkbox" name="monochrome" value="ok" />
+                Image monochrome
+            
+            <input type="checkbox" name="contour" value="ok" />
+                Contour
+            
+            <input type="checkbox" name="fusion" value="ok" />
+                Fusion de 2 images
+                
+            <!-- Fichier 2 -->
+            <p>2e BMP: 
+            <input type="file" name="fichier2" accept=".bmp" /></p>
+            
+        <input type="submit" value="Traiter l'image" />
+    </form>
+    <footer>
+        <!-- LOG -->
+    </footer>
+</body>
+
+</html>

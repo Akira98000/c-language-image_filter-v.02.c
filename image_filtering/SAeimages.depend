@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1666265764 source:c:\users\bt200994\documents\test\saeimages\main.c
+	<stdio.h>
+	<stdlib.h>
+
